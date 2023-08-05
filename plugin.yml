@@ -2,4 +2,14 @@ name: AutoClearLagg
 main: FiraAja\AutoClearLagg\AutoClearLagg
 version: 3.1.0
 api: 5.0.0
-author: FiraAja
+author: FiraAja and Finnbar
+
+commands:
+  clearlagg:
+    description: Removes entities
+    permission: clearlagg
+
+permissions:
+  clearlagg:
+    description: Removes entities
+    default: op
